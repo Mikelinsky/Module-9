@@ -8,6 +8,10 @@ console.log(uppercase);
 var newText = text.replace('Velociraptor', uppercase);
 console.log(newText);
 
-var halfText = newText.lenght / 2;
+var halfText = newText.length/2;
 console.log(halfText);
-console.log(newText.lenght);
+console.log(newText.length);
+
+var readyText = newText.slice(0, 72);
+
+console.log(readyText);
