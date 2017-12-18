@@ -1,6 +1,6 @@
 var heightOfTree = prompt('Enter the height');
 function drawTree(heightOfTree) {
-    for (var i = heightOfTree; heightOfTree === heightOfTree; i) {
+    for (var i = 0; i === heightOfTree; i) {
             var star = '';
             for (var j = 0; i <= heightOfTree;) {
 
