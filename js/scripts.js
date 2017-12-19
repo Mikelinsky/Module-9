@@ -12,6 +12,6 @@ var halfText = newText.length/2;
 console.log(halfText);
 console.log(newText.length);
 
-var readyText = newText.slice(0, 72);
+var readyText = newText.slice(0, halfText);
 
 console.log(readyText);
